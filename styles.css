@@ -1,0 +1,69 @@
+/*variables*/
+/*variables end*/
+body {
+  font-family: 'Cabin', sans-serif; }
+
+/*body end*/
+div {
+  color: white;
+  /*header-jumbo end*/ }
+  div#header-jumbo {
+    height: 1000px;
+    padding-top: 5%;
+    margin-top: 2%;
+    color: white;
+    background-color: #7D9EC0;
+    max-height: 100%; }
+  div.nav-div {
+    margin-bottom: 3%; }
+  div.div-one {
+    height: 1000px;
+    max-height: 100%;
+    margin-top: -50px;
+    background-color: #7D9EC0;
+    border-top: 5px solid black; }
+    div.div-one p {
+      font-size: 1.3em; }
+  div.div-two {
+    height: 1100px;
+    max-height: 100%;
+    background-color: #36526e;
+    margin-top: -50px;
+    border-top: 5px solid black;
+    padding: 1%; }
+    div.div-two p {
+      font-size: 1.3em; }
+  div.div-three {
+    background-color: #9fb8d1;
+    border-top: 5px solid black; }
+  div#portfolio {
+    background-color: #9fb8d1; }
+
+nav {
+  font-size: 1.2em;
+  margin-bottom: 2%; }
+
+/*nav end*/
+h1 {
+  /*main-head end*/ }
+  h1#main-head {
+    padding: 30px; }
+
+/*h1 end*/
+p#header-p {
+  font-size: 1.5em; }
+p.card-text {
+  color: black; }
+
+li {
+  font-size: 1.1em;
+  padding: 5px;
+  color: #e6e6e6; }
+
+img {
+  border-radius: 10px; }
+
+#exCollapsingNavbar2 {
+  padding: 10px; }
+
+/*# sourceMappingURL=styles.css.map */

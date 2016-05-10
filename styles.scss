@@ -1,0 +1,81 @@
+/*variables*/
+$sgiblue: #7D9EC0;
+$silver: #C0C0C0;
+/*variables end*/
+
+body {
+	font-family: 'Cabin', sans-serif;
+}/*body end*/
+div {
+	color: white;
+	&#header-jumbo {
+		height: 1000px;
+		padding-top: 5%;
+		margin-top: 2%;
+		color: white;
+		background-color: $sgiblue;
+		max-height: 100%;
+	}/*header-jumbo end*/
+	&.nav-div {
+		margin-bottom: 3%;
+	}
+	&.div-one {
+		height: 1000px;
+		max-height: 100%;
+		margin-top: -50px;
+		background-color: $sgiblue;
+		border-top: 5px solid black;
+		p {
+			font-size: 1.3em;
+		}
+	}
+	&.div-two {
+		height: 1100px;
+		max-height: 100%;
+		background-color: darken($sgiblue, 30%);
+		margin-top: -50px;
+		border-top: 5px solid black;
+		padding: 1%;
+		p {
+			font-size: 1.3em;
+		}
+	}
+	&.div-three {
+		background-color: lighten($sgiblue, 10%);
+		border-top: 5px solid black;
+	}
+	&#portfolio {
+		background-color: lighten($sgiblue, 10%);
+	}
+
+}
+nav {
+	font-size: 1.2em;
+	margin-bottom: 2%;
+}/*nav end*/
+h1{
+	&#main-head {
+	padding: 30px;
+	}/*main-head end*/
+}/*h1 end*/
+p {
+	&#header-p {
+		font-size: 1.5em;
+	}
+	&.card-text {
+		color: black;
+	}
+}
+
+li {
+	font-size: 1.1em;
+	padding: 5px;
+	color: darken(white, 10%);
+}
+img {
+	border-radius: 10px;
+}
+#exCollapsingNavbar2 {
+		padding: 10px;
+	}
+
