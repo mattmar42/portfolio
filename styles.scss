@@ -5,7 +5,9 @@ $silver: #C0C0C0;
 
 body {
 	font-family: 'Droid Sans', sans-serif;
-}/*body end*/
+	background-color: #5bc0de;
+}
+
 div {
 	color: white;
 	&#header-jumbo {
@@ -51,18 +53,26 @@ div {
 		border-top: 5px solid white;
 		background-color: darken($sgiblue, 40%);
 	}
+	&.overline {
+		padding: 15px;
+		border-top: 3px solid white;
+	}
 
-}/*div end*/
+}
+
 nav {
 	font-size: 1.2em;
 	margin-bottom: 2%;
-}/*nav end*/
+	opacity: 0.9;
+}
+
 h1{
 	display: none;
 	&#main-head {
 	padding: 30px;
 	}
-}/*h1 end*/
+}
+
 p {
 	display: none;
 	&#header-p {
@@ -72,13 +82,15 @@ p {
 		color: black;
 	}
 
-}/*p end*/
+}
+
 li {
 	display: none;
 	font-size: 1.1em;
 	padding: 5px;
 	color: darken(white, 10%);
-}/*li end*/
+}
+
 img {
 	border-radius: 10px;
 	&.icon {
@@ -90,15 +102,17 @@ img {
 		width: 500px;
 		height: 300px;
 	}
-}/*img end*/
+}
+
 #exCollapsingNavbar2 {
 		padding: 10px;
-	}
+}
+
 .grayscale {
 	-webkit-filter: grayscale(100%); 
 	filter: grayscale(100%);
 }
-#email {
-		display: none;
-	}
 
+.text-muted {
+	color: black;
+}

@@ -1,9 +1,9 @@
 /*variables*/
 /*variables end*/
 body {
-  font-family: 'Droid Sans', sans-serif; }
+  font-family: 'Droid Sans', sans-serif;
+  background-color: #5bc0de; }
 
-/*body end*/
 div {
   color: white; }
   div#header-jumbo {
@@ -40,19 +40,20 @@ div {
   div#div-five {
     border-top: 5px solid white;
     background-color: #25384c; }
+  div.overline {
+    padding: 15px;
+    border-top: 3px solid white; }
 
-/*div end*/
 nav {
   font-size: 1.2em;
-  margin-bottom: 2%; }
+  margin-bottom: 2%;
+  opacity: 0.9; }
 
-/*nav end*/
 h1 {
   display: none; }
   h1#main-head {
     padding: 30px; }
 
-/*h1 end*/
 p {
   display: none; }
   p#header-p {
@@ -60,14 +61,12 @@ p {
   p.card-text {
     color: black; }
 
-/*p end*/
 li {
   display: none;
   font-size: 1.1em;
   padding: 5px;
   color: #e6e6e6; }
 
-/*li end*/
 img {
   border-radius: 10px; }
   img.icon {
@@ -78,7 +77,6 @@ img {
     width: 500px;
     height: 300px; }
 
-/*img end*/
 #exCollapsingNavbar2 {
   padding: 10px; }
 
@@ -86,7 +84,7 @@ img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%); }
 
-#email {
-  display: none; }
+.text-muted {
+  color: black; }
 
 /*# sourceMappingURL=styles.css.map */

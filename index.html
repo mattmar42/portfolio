@@ -18,20 +18,20 @@
   <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
     &#9776;
   </button>
-  <div class="container text-xs-center">
+  <div class="container-fluid"id="nav">
   <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
     <ul class="nav navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#about">About Me<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Skills</a>
+        <a class="nav-link" href="#div-two">Skills</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Portfolio</a>
+        <a class="nav-link" href="#div-three">Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#div-five">Contact</a>
       </li>
     </ul>
   </div>
@@ -43,12 +43,12 @@
 
 <div class="jumbotron jumbotron-fluid bg-info" id="header-jumbo">
   <h1 class="display-3 text-xs-center" id="main-head">MATT MARING.</h1>
-  <p id="header-p" class="text-xs-center">FRONT END DEVELOPER.</p>
+  <p id="header-p" class="text-xs-center">WEB DEVELOPER.</p>
 </div>
 
 <!-- Jumbotron end -->
 <!-- first div begin -->
-<div class="container-fluid div-one">
+<div class="container-fluid div-one" id="about">
   <div class="container">
   <div class="row">
     <div class="col-sm-6 col-lg-6 m-b-3">
@@ -56,7 +56,7 @@
     </div>
     <div class="col-sm-1 col-lg-1"></div>
     <div class="col-sm-6 col-lg-6 m-b-3 text-md-right">
-      <h1 id="about" class="m-t-3 m-b-1 text-justify text-xs-center">About Me.</h3>
+      <h1 class="m-t-3 m-b-1 text-justify text-xs-center">About Me.</h3>
       <p class="text-justify text-xs-center">I'm a Front End Developer, Martial Artist, and PC bulding hobbyist.</p>
       <p class="text-justify m-p-2 text-xs-center">I love building things, solving problems, and aim to be a little better at everything I do every day.</p>
     </div>
@@ -113,15 +113,15 @@
 <h1 class="display-3 text-xs-center m-y-3">Projects</h1>
 <div class="row">
 
-<div class="col-sm-12 col-md-6">
-  <a href="https://github.com/mattmar42/randomQuoteGenerator"><img class="img-fluid m-b-3" src="images/quotegen.png"></a>
+<div class="col-sm-12 col-md-6 overline">
+  <a href="http://mattmar42.github.io/randomQuoteGenerator/"><img class="img-fluid img-rounded m-b-3" src="images/quotegen.png"></a>
     <h1 class="text-xs-center m-b-2 lead">Random Quote Generator</h1>
     <p class="text-xs-center m-b-1">Displays a random quote from an array and animates the background randomly.</p>
     <p class="text-xs-center text-muted m-b-3">HTML, CSS(webkit animations, BootStrap), jQuery</p>
   </div>
 
-<div class="col-sm-12 col-md-6">
-  <a href="https://github.com/mattmar42/flickrGallery"><img class="img-fluid m-b-3" src="images/flickrgal.png"></a>
+<div class="col-sm-12 col-md-6 overline">
+  <a href="http://mattmar42.github.io/flickrGallery/"><img class="img-fluid img-rounded m-b-3" src="images/flickrgal.png"></a>
     <h1 class="text-xs-center m-b-2 lead">Flickr Photo Gallery</h1>
     <p class="text-xs-center m-b-1">Searches through Flickr API for images with tags matching user's query.</p>
     <p class="text-xs-center text-muted m-b-3">HTML, CSS(Sass), jQuery</p>
@@ -132,33 +132,34 @@
 <div class="container" id="div-four">
   <div class="row">
 
-  <div class="col-sm-12 col-md-6">
-  <a href="https://github.com/mattmar42/WeatherApp"><img class="img-fluid m-b-3" src="images/weather.png"></a>
+  <div class="col-sm-12 col-md-6 overline">
+  <a href="http://mattmar42.github.io/WeatherApp/"><img class="img-fluid img-rounded m-b-3" src="images/weather.png"></a>
     <h1 class="text-xs-center m-b-2 lead">Wunderground Weather Checker</h1>
     <p class="text-xs-center m-b-1">Uses WeatherUnderground API to retrieve weather inforamtion matching users query.</p>
     <p class="text-xs-center text-muted m-b-3">HTML, CSS(Sass), jQuery</p>
   </div>
 
-  <div class="col-sm-12 col-md-6">
-  <a href="https://github.com/mattmar42/GoodCoffee"><img class="img-fluid m-b-3" src="images/coffee.png"></a>
-    <h1 class="text-xs-center m-b-2 lead">Good Coffee Co.</h1>
-    <p class="text-xs-center m-b-1">My first Bootstrap page! A pretend website for a coffee company.</p>
-    <p class="text-xs-center text-muted m-b-3">HTML, CSS(BootStrap)</p>
+  <div class="col-sm-12 col-md-6 overline">
+  <a href="http://mattmar42.github.io/lightBox/"><img class="img-fluid img-rounded m-b-3" src="images/lightbox.png"></a>
+    <h1 class="text-xs-center m-b-2 lead">Simple Lightbox</h1>
+    <p class="text-xs-center m-b-1">Basic Lightbox, user can click an image to view it at a larger scale, centered, and fade out the background.</p>
+    <p class="text-xs-center text-muted m-b-3">HTML, CSS(Sass), jQuery</p>
   </div>
+  
 </div>
 
 <div class="container" id="div-four">
   <div class="row">
 
-  <div class="col-sm-12 col-md-6">
-  <a href="https://github.com/mattmar42/lightBox"><img class="img-fluid m-b-3" src="images/lightbox.png"></a>
-    <h1 class="text-xs-center m-b-2 lead">Simple Lightbox</h1>
-    <p class="text-xs-center m-b-1">Basic Lightbox, user can click an image to view it at a larger scale, centered, and fade out the background.</p>
-    <p class="text-xs-center text-muted m-b-3">HTML, CSS(Sass), jQuery</p>
-  </div>
+   <div class="col-sm-12 col-md-6 overline">
+  <a href="https://github.com/mattmar42/GoodCoffee"><img class="img-fluid img-rounded m-b-3" src="images/coffee.png"></a>
+    <h1 class="text-xs-center m-b-2 lead">Good Coffee Co.</h1>
+    <p class="text-xs-center m-b-1">My first Bootstrap page! A pretend website for a coffee company.</p>
+    <p class="text-xs-center text-muted m-b-3">HTML, CSS(BootStrap)</p>
+  </div> 
 
-  <div class="col-sm-12 col-md-6">
-  <a href="https://github.com/mattmar42/tts-connectr"><img class="img-fluid m-b-3" src="images/connectr.png"></a>
+  <div class="col-sm-12 col-md-6 overline">
+  <a href="https://github.com/mattmar42/tts-connectr"><img class="img-fluid img-rounded m-b-3" src="images/connectr.png"></a>
     <h1 class="text-xs-center m-b-2 lead">Connectr</h1>
     <p class="text-xs-center m-b-1">The front end for a rails based social media App.</p>
     <p class="text-xs-center text-muted m-b-3">HTML, CSS(W3.CSS), jQuery</p>
@@ -183,7 +184,7 @@
 <!-- fifth div begin -->
 
 <div class="container-fluid" id="div-five">
-  <h1 class="text-xs-center m-t-3">Want to get in touch?</h1>
+  <h1 class="text-xs-center m-t-3" id="contact">Want to get in touch?</h1>
     <div class="row">
 
       <div class="col-xs-12 text-xs-center">
