@@ -4,7 +4,7 @@ $silver: #C0C0C0;
 /*variables end*/
 
 body {
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Droid Sans', sans-serif;
 }/*body end*/
 div {
 	color: white;
@@ -15,7 +15,7 @@ div {
 		color: white;
 		background-color: $sgiblue;
 		max-height: 100%;
-	}/*header-jumbo end*/
+	}
 	&.nav-div {
 		margin-bottom: 3%;
 	}
@@ -29,7 +29,7 @@ div {
 			font-size: 1.3em;
 		}
 	}
-	&.div-two {
+	&#div-two {
 		height: 1100px;
 		max-height: 100%;
 		background-color: darken($sgiblue, 30%);
@@ -40,42 +40,65 @@ div {
 			font-size: 1.3em;
 		}
 	}
-	&.div-three {
-		background-color: lighten($sgiblue, 10%);
+	&#div-three {
+		background-color: $sgiblue;
 		border-top: 5px solid black;
 	}
-	&#portfolio {
-		background-color: lighten($sgiblue, 10%);
+	&#div-four {
+		background-color: $sgiblue;
+	}
+	&#div-five {
+		border-top: 5px solid white;
+		background-color: darken($sgiblue, 40%);
 	}
 
-}
+}/*div end*/
 nav {
 	font-size: 1.2em;
 	margin-bottom: 2%;
 }/*nav end*/
 h1{
+	display: none;
 	&#main-head {
 	padding: 30px;
-	}/*main-head end*/
+	}
 }/*h1 end*/
 p {
+	display: none;
 	&#header-p {
 		font-size: 1.5em;
 	}
 	&.card-text {
 		color: black;
 	}
-}
 
+}/*p end*/
 li {
+	display: none;
 	font-size: 1.1em;
 	padding: 5px;
 	color: darken(white, 10%);
-}
+}/*li end*/
 img {
 	border-radius: 10px;
-}
+	&.icon {
+		height: 40px;
+		width: 40px;
+		margin-left: 50px;
+	}
+	&.card-image {
+		width: 500px;
+		height: 300px;
+	}
+}/*img end*/
 #exCollapsingNavbar2 {
 		padding: 10px;
+	}
+.grayscale {
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
+}
+#email {
+		display: none;
 	}
 

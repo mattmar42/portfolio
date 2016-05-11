@@ -8,10 +8,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Cabin:500italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <!-- scripts -->
+    <title>Matt Maring.</title>
   </head>
 <body data-spy="scroll" data-target="#navbar #navbar-2">
-<!-- Mobile Nav Begin -->
+<!-- Nav Begin -->
 <nav class="navbar navbar-dark bg-inverse navbar-fixed-top">
   <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
     &#9776;
@@ -36,8 +38,8 @@
 </div>
 </nav>
 
-<!-- Mobile Nav End -->
-<!-- Jumbotron/First Div -->
+<!-- Nav End -->
+<!-- Jumbotron/Header -->
 
 <div class="jumbotron jumbotron-fluid bg-info" id="header-jumbo">
   <h1 class="display-3 text-xs-center" id="main-head">MATT MARING.</h1>
@@ -45,7 +47,7 @@
 </div>
 
 <!-- Jumbotron end -->
-<!-- container begin -->
+<!-- first div begin -->
 <div class="container-fluid div-one">
   <div class="container">
   <div class="row">
@@ -61,10 +63,10 @@
   </div>
 </div>
 </div>
-<!-- Container End -->
+<!-- div end -->
 
-<!-- container begin -->
-<div class="container-fluid div-two">
+<!-- second div begin -->
+<div class="container-fluid" id="div-two">
   <div class="container">
     <h1 class="display-3 text-xs-center m-t-2">Skills & Tools</h1>
   <div class="row">
@@ -94,8 +96,8 @@
     <div class="col-sm-6 col-md-4 text-xs-center m-t-3">
       <h1>Software</h1>
       <ul class="list-unstyled">
-        <li>Git</li>
         <li>Sublime Text</li>
+        <li>Git</li>
         <li>Unix Terminal</li>
         <li>Chrome Dev Tools</li>
       </ul> 
@@ -104,86 +106,103 @@
   </div>
 </div>
 </div>
-<!-- Container End -->
-<div class="contaier-fluid div-three">
-<div class="container" id="portfolio">
-<h1 id="speakers" class="display-4 text-xs-center m-y-3">Projects</h1>
+<!-- div end -->
+<!-- third div begin -->
+<div class="contaier-fluid" id="div-three">
+<div class="container" id="div-four">
+<h1 class="display-3 text-xs-center m-y-3">Projects</h1>
 <div class="row">
-  <div class="col-sm-12 col-md-4">
-          <div class="card">
-        <img class="card-img-top img-fluid" src="images/me.jpg" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Angie McAngular</h4>
-          <p class="card-text">Angie is a teacher who is passionate about developing scalable, data driven applications. Especially ones that address old problems with new Tech!</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
+
+<div class="col-sm-12 col-md-6">
+  <a href="https://github.com/mattmar42/randomQuoteGenerator"><img class="img-fluid m-b-3" src="images/quotegen.png"></a>
+    <h1 class="text-xs-center m-b-2 lead">Random Quote Generator</h1>
+    <p class="text-xs-center m-b-1">Displays a random quote from an array and animates the background randomly.</p>
+    <p class="text-xs-center text-muted m-b-3">HTML, CSS(webkit animations, BootStrap), jQuery</p>
   </div>
 
-  <div class="col-sm-12 col-md-4">
-              <div class="card">
-        <img class="card-img-top img-fluid" src="images/me.jpg" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Angie McAngular</h4>
-          <p class="card-text">Angie is a teacher who is passionate about developing scalable, data driven applications. Especially ones that address old problems with new Tech!</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
+<div class="col-sm-12 col-md-6">
+  <a href="https://github.com/mattmar42/flickrGallery"><img class="img-fluid m-b-3" src="images/flickrgal.png"></a>
+    <h1 class="text-xs-center m-b-2 lead">Flickr Photo Gallery</h1>
+    <p class="text-xs-center m-b-1">Searches through Flickr API for images with tags matching user's query.</p>
+    <p class="text-xs-center text-muted m-b-3">HTML, CSS(Sass), jQuery</p>
+  </div>
+ </div>
+</div>
+
+<div class="container" id="div-four">
+  <div class="row">
+
+  <div class="col-sm-12 col-md-6">
+  <a href="https://github.com/mattmar42/WeatherApp"><img class="img-fluid m-b-3" src="images/weather.png"></a>
+    <h1 class="text-xs-center m-b-2 lead">Wunderground Weather Checker</h1>
+    <p class="text-xs-center m-b-1">Uses WeatherUnderground API to retrieve weather inforamtion matching users query.</p>
+    <p class="text-xs-center text-muted m-b-3">HTML, CSS(Sass), jQuery</p>
   </div>
 
-  <div class="col-sm-12 col-md-4">
-              <div class="card">
-        <img class="card-img-top img-fluid" src="images/me.jpg" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Angie McAngular</h4>
-          <p class="card-text">Angie is a teacher who is passionate about developing scalable, data driven applications. Especially ones that address old problems with new Tech!</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
+  <div class="col-sm-12 col-md-6">
+  <a href="https://github.com/mattmar42/GoodCoffee"><img class="img-fluid m-b-3" src="images/coffee.png"></a>
+    <h1 class="text-xs-center m-b-2 lead">Good Coffee Co.</h1>
+    <p class="text-xs-center m-b-1">My first Bootstrap page! A pretend website for a coffee company.</p>
+    <p class="text-xs-center text-muted m-b-3">HTML, CSS(BootStrap)</p>
+  </div>
+</div>
+
+<div class="container" id="div-four">
+  <div class="row">
+
+  <div class="col-sm-12 col-md-6">
+  <a href="https://github.com/mattmar42/lightBox"><img class="img-fluid m-b-3" src="images/lightbox.png"></a>
+    <h1 class="text-xs-center m-b-2 lead">Simple Lightbox</h1>
+    <p class="text-xs-center m-b-1">Basic Lightbox, user can click an image to view it at a larger scale, centered, and fade out the background.</p>
+    <p class="text-xs-center text-muted m-b-3">HTML, CSS(Sass), jQuery</p>
   </div>
 
-  <div class="col-sm-12 col-md-4">
-              <div class="card">
-        <img class="card-img-top img-fluid" src="images/me.jpg" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Angie McAngular</h4>
-          <p class="card-text">Angie is a teacher who is passionate about developing scalable, data driven applications. Especially ones that address old problems with new Tech!</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
+  <div class="col-sm-12 col-md-6">
+  <a href="https://github.com/mattmar42/tts-connectr"><img class="img-fluid m-b-3" src="images/connectr.png"></a>
+    <h1 class="text-xs-center m-b-2 lead">Connectr</h1>
+    <p class="text-xs-center m-b-1">The front end for a rails based social media App.</p>
+    <p class="text-xs-center text-muted m-b-3">HTML, CSS(W3.CSS), jQuery</p>
   </div>
+</div>
 
-    <div class="col-sm-12 col-md-4">
-              <div class="card">
-        <img class="card-img-top img-fluid" src="images/me.jpg" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Angie McAngular</h4>
-          <p class="card-text">Angie is a teacher who is passionate about developing scalable, data driven applications. Especially ones that address old problems with new Tech!</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-  </div>
+</div>  
 
-    <div class="col-sm-12 col-md-4">
-              <div class="card">
-        <img class="card-img-top img-fluid" src="images/me.jpg" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Angie McAngular</h4>
-          <p class="card-text">Angie is a teacher who is passionate about developing scalable, data driven applications. Especially ones that address old problems with new Tech!</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-  </div>
+ 
+
+
+
+
+<!-- div end -->
+
 
 
 </div>
 </div>
 </div>
+<!-- div end -->
+<!-- fifth div begin -->
 
+<div class="container-fluid" id="div-five">
+  <h1 class="text-xs-center m-t-3">Want to get in touch?</h1>
+    <div class="row">
+
+      <div class="col-xs-12 text-xs-center">
+        <ul class="list-unstyled m-t-3" id="contactList">
+          <li>Twitter:<a href="https://twitter.com/MatthewMaring"><img src="images/twitter.png" class="icon grayscale"></a></li>
+          <li>LinkedIn:<a href="https://www.linkedin.com/in/matthew-maring-721529107?trk=hp-identity-name"><img class="icon grayscale" src="images/linkedin.png"></a></li>
+          <li>GitHub:<a href="https://github.com/mattmar42"><img src="images/github.png" class="icon"></a></li>
+          <li>CodePen:<a href="http://codepen.io/choptimus42/"><img src="images/codepen.png" class="icon"></a></li>
+          <li>Email:<a href="mailto:matthewmaring42@gmail.com"><img src="images/gmail.png" class="icon"></a><p>matthewmaring42@gmail.com</p></li>
+        </ul>
+      </div>
+
+  </div>
+
+</div>
 
     <!-- jQuery first, then Bootstrap JS. -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
-<script type="text/javascript" src="scripts.js"></script>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
